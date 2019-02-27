@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.bloodbank.fragmant.frag5"
+    android:background="@mipmap/m6"
+    android:orientation="vertical"
+    >
+
+    <!--<Button-->
+        <!--android:id="@+id/howw"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight=".4"-->
+        <!--android:text="Search"-->
+        <!--tools:layout_editor_absoluteX="107dp"-->
+        <!--tools:layout_editor_absoluteY="16dp" />-->
+
+    <ListView
+        android:id="@+id/llaccept"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

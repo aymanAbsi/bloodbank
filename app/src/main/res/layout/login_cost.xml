@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/abbbb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/edt1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="84dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/edtpassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="34dp"
+        android:background="#c6c5c5"
+        android:onClick="Log"
+        android:text="@string/loginbu"
+        android:textColor="#f90304"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <CheckBox
+
+        android:id="@+id/checkBoxx"
+        android:layout_width="177dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginRight="89dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="11dp"
+        android:text="Rememeber me"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="135dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxx"></View>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="136dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="32dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxx"></View>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toStartOf="@+id/view"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxx" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#cacaca"
+        android:onClick="reggg"
+        android:text="@string/createbutton"
+        android:textColor="#f90304"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="31dp"
+
+        android:layout_height="36dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/b_person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/firstname"
+        app:layout_constraintBottom_toTopOf="@+id/edt3"
+        app:layout_constraintEnd_toStartOf="@+id/edt2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="fill"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/lastname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edt1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+
+        android:layout_height="40dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/b_age"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/age"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/edt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/edt1" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/b_call"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/edt5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/edt3" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+
+        android:layout_height="47dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/b_massege"
+        app:layout_constraintEnd_toStartOf="@+id/edt5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <EditText
+        android:id="@+id/edt5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/edt6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/edt4" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/b_lock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/edt6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/edt7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/edt5" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/b_true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/edt7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/spinner1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/edt6" />
+
+
+    <ImageView
+
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="32dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/b_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+        android:id="@+id/spinner1"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="12dp"
+
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginLeft="14dp"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="8dp"
+        app:j_fls_colorError="#ff0004"
+        app:j_fls_colorHighlight="#0000FF"
+        app:j_fls_error_anim_duration="8000"
+        app:j_fls_error_horizontal_margin="2dp"
+        app:j_fls_error_textSize="14sp"
+        app:j_fls_error_vertical_margin="2dp"
+        app:j_fls_float_anim_duration="800"
+
+        app:j_fls_hint="Select City"
+        app:j_fls_hint_textSize="16sp"
+        app:j_fls_label_horizontal_margin="2dp"
+        app:j_fls_label_textSize="14sp"
+        app:j_fls_label_vertical_margin="2dp"
+        app:j_fls_recursive="true"
+        app:j_fls_textColorHint="#0000FF"
+        app:j_fls_thickness="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/edt7" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/b_test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+        android:id="@+id/spinner2"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginLeft="12dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:j_fls_colorError="#ff0004"
+        app:j_fls_colorHighlight="#0000FF"
+        app:j_fls_error_anim_duration="8000"
+        app:j_fls_error_horizontal_margin="2dp"
+        app:j_fls_error_textSize="14sp"
+        app:j_fls_error_vertical_margin="2dp"
+        app:j_fls_float_anim_duration="800"
+        app:j_fls_hint="Select Blood Type"
+
+        app:j_fls_hint_textSize="16sp"
+        app:j_fls_label_horizontal_margin="2dp"
+        app:j_fls_label_textSize="14sp"
+        app:j_fls_label_vertical_margin="2dp"
+        app:j_fls_recursive="true"
+        app:j_fls_textColorHint="#0000FF"
+        app:j_fls_thickness="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_remove_red_eye_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/rigCust"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2">
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="public"
+
+            android:textColor="#8b8989"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="private"
+
+            android:textColor="#8b8989"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/rigCust"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="8dp"
+        android:background="#050a9f"
+        android:gravity="center"
+        android:onClick="gotologin"
+        android:text="@string/regster"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+
+</android.support.constraint.ConstraintLayout>

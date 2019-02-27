@@ -1,0 +1,114 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.app.bloodbank.fragmant.frag1"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="134dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/images"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+        android:id="@+id/floatingLabelSpinner"
+
+        android:layout_width="313dp"
+
+        android:layout_height="64dp"
+
+        android:layout_marginTop="36dp"
+
+        app:j_fls_colorError="#ff0004"
+
+
+        app:j_fls_colorHighlight="#0000FF"
+
+        app:j_fls_error_anim_duration="8000"
+
+        app:j_fls_error_horizontal_margin="2dp"
+
+        app:j_fls_error_textSize="14sp"
+
+        app:j_fls_error_vertical_margin="2dp"
+        app:j_fls_float_anim_duration="800"
+        app:j_fls_hint="Select City"
+        app:j_fls_hint_textSize="16sp"
+        app:j_fls_label_horizontal_margin="2dp"
+        app:j_fls_label_textSize="14sp"
+        app:j_fls_label_vertical_margin="2dp"
+        app:j_fls_recursive="true"
+        app:j_fls_textColorHint="#0000FF"
+        app:j_fls_thickness="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+        android:id="@+id/spinnerb"
+
+        android:layout_width="313dp"
+
+        android:layout_height="66dp"
+
+
+        android:layout_marginTop="23dp"
+
+        app:j_fls_colorError="#ff0015"
+
+        app:j_fls_colorHighlight="#0000FF"
+
+        app:j_fls_error_anim_duration="8000"
+
+        app:j_fls_error_horizontal_margin="2dp"
+        app:j_fls_error_textSize="14sp"
+        app:j_fls_error_vertical_margin="2dp"
+        app:j_fls_float_anim_duration="800"
+        app:j_fls_hint="Select Blood Type"
+        app:j_fls_hint_textSize="16sp"
+        app:j_fls_label_horizontal_margin="2dp"
+        app:j_fls_label_textSize="14sp"
+        app:j_fls_label_vertical_margin="2dp"
+        app:j_fls_recursive="true"
+        app:j_fls_textColorHint="#0000FF"
+        app:j_fls_thickness="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingLabelSpinner" />
+
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="141dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="121dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="93dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_search_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerb" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,199 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.app.bloodbank.fragmant.frag3"
+    tools:layout_editor_absoluteY="81dp">
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content">
+        >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+            android:id="@+id/floatingLabelSpinnertype"
+
+            android:layout_width="340dp"
+
+            android:layout_height="64dp"
+
+
+            android:layout_marginTop="20dp"
+
+            app:j_fls_colorError="#ff0004"
+
+            app:j_fls_colorHighlight="#0000FF"
+
+            app:j_fls_error_anim_duration="8000"
+
+            app:j_fls_error_horizontal_margin="2dp"
+            app:j_fls_error_textSize="14sp"
+            app:j_fls_error_vertical_margin="2dp"
+            app:j_fls_float_anim_duration="800"
+            app:j_fls_hint="Select Blood Type"
+            app:j_fls_hint_textSize="16sp"
+            app:j_fls_label_horizontal_margin="2dp"
+            app:j_fls_label_textSize="14sp"
+            app:j_fls_label_vertical_margin="2dp"
+            app:j_fls_recursive="true"
+
+            app:j_fls_textColorHint="#0000FF"
+            app:j_fls_thickness="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingLabelSpinneraddress" />
+
+
+        <com.james602152002.floatinglabelspinner.FloatingLabelSpinner
+
+            android:id="@+id/floatingLabelSpinneraddress"
+
+            android:layout_width="340dp"
+
+            android:layout_height="64dp"
+
+
+            android:layout_marginTop="20dp"
+
+            app:j_fls_colorError="#ff0004"
+
+            app:j_fls_colorHighlight="#0000FF"
+
+            app:j_fls_error_anim_duration="8000"
+
+            app:j_fls_error_horizontal_margin="2dp"
+            app:j_fls_error_textSize="14sp"
+            app:j_fls_error_vertical_margin="2dp"
+            app:j_fls_float_anim_duration="800"
+            app:j_fls_hint="Select City"
+            app:j_fls_hint_textSize="16sp"
+            app:j_fls_label_horizontal_margin="2dp"
+            app:j_fls_label_textSize="14sp"
+            app:j_fls_label_vertical_margin="2dp"
+            app:j_fls_recursive="true"
+
+            app:j_fls_textColorHint="#0000FF"
+            app:j_fls_thickness="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <EditText
+            android:id="@+id/ddate"
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/date"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingLabelSpinnertype" />
+
+
+        <Button
+            android:id="@+id/send"
+
+            android:layout_width="167dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="58dp"
+            android:shadowColor="#A80C0C"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/send"
+            android:textColor="#2212b4"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/share"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/num" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="145dp"
+            android:layout_height="53dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="56dp"
+
+            android:drawableLeft="@drawable/ic_share"
+            android:shadowColor="#A80C0C"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="Share"
+            android:textColor="#2513c6"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/num" />
+
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="338dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/old"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ddate" />
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="355dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/num"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "207252658808",
+    "firebase_url": "https://bloodbank-fca70.firebaseio.com",
+    "project_id": "bloodbank-fca70",
+    "storage_bucket": "bloodbank-fca70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207252658808:android:63ede5c1135d3743",
+        "android_client_info": {
+          "package_name": "com.example.app.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207252658808-154ucoo2e9ktv2kqr1p4licda19e23qe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app.bloodbank",
+            "certificate_hash": "f2fc8bb6c01d8946505fcaaea1dda4e4f8b3040c"
+          }
+        },
+        {
+          "client_id": "207252658808-fv716s9gtcmastphr4hb4rp70gb97drv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app.bloodbank",
+            "certificate_hash": "f0128e22e6f8752320e52efe097655d4fca88407"
+          }
+        },
+        {
+          "client_id": "207252658808-j53e7a2ne3lmghltdp3qa2do2ccsli6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuLOeTS0Rj5smo8d6NBUt5QoFTQE_Jd-U"
+        },
+        {
+          "current_key": "AIzaSyARL9v89WwUruyF5UDyfR-gfRuNwf-fOOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207252658808-j53e7a2ne3lmghltdp3qa2do2ccsli6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207252658808:android:6cdd74c037b12eab",
+        "android_client_info": {
+          "package_name": "com.project.hash.teamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207252658808-ofpot7kd0dartsnmsqjpfd0bjd0lnq0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.hash.teamproject",
+            "certificate_hash": "f0128e22e6f8752320e52efe097655d4fca88407"
+          }
+        },
+        {
+          "client_id": "207252658808-j53e7a2ne3lmghltdp3qa2do2ccsli6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuLOeTS0Rj5smo8d6NBUt5QoFTQE_Jd-U"
+        },
+        {
+          "current_key": "AIzaSyARL9v89WwUruyF5UDyfR-gfRuNwf-fOOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207252658808-j53e7a2ne3lmghltdp3qa2do2ccsli6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
